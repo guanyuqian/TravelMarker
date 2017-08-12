@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EJS Examples</title>
+
+</head>
+<BODY>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+
+            <div class="modal fade" id="modal-container-99119" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="width:80%;" >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title" id="myModalLabel">
+                                选择地点
+                            </h4>
+                        </div>
+                        <div class="modal-body"style="height: 500px">
+                            <div class="col-md-12">
+                                <div class="col-md-6" >
+                                <label for="name">名称</label>
+                                <input type="text" class="form-control" id="addAttractionsName" placeholder="请输入名称">
+                                </div>
+                                <div class="col-md-6" >
+                                    <label for="name">时间</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control form_datetime" id="addAttractionsDate" name="addAttractionsDate" placeholder="">
+                                        <span class="input-group-addon icon-remove" id="basic-addon2"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+
+                                    </div>
+
+                                </div>                            </div>
+                            <div class="col-md-12" style="margin: 10px; height: 80%">
+                                <div id="dg" style="z-index: 9999; position: fixed ! important; left: 100px; top: 150px;">
+                                    <div class="input-group col-md-3" >
+                                        <input id="searchInput" type="text" class="form-control" placeholder="请输入查询地区" />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-info btn-search" id="searchBtn">查找</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <input type="text" id='addAttractionsLocationX' style="display: none">
+                                <input type="text" id='addAttractionsLocationY' style="display: none">
+                                <div class="col-md-12" id="allmap"></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id='addAttractions' type="button" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gl_container">
+    <div class="gl_content">
+        <div class="yj_write_box cf">
+            <div class="ctd_main_left">
+                <div class="write_title cf ">
+                    <h1>编辑游记</h1>
+                    <a href="http://you.ctrip.com/travels/shanghai2/3356344.html" target="_blank">常见问答说明</a>
+                </div>
+                <input class="yj_write_title" width="100%" type="text" placeholder="请在这里输入游记标题（40字内）">
+                <!--编辑框-->
+                    <div class="editor_content">
+                            <script id="editor" type="text/plain" class="ctd_main_body" style="width: 800px;height:500px;"></script></div>
+                <div class="yj_publish_blk" style="margin:10px">
+                    <a id="btn_submit1" class="submit_btn" href="javascript:void(0);">发布</a>
+                    <a id="draft1" class="save_link" href="javascript:void(0);">保存草稿</a>
+                    <a id="" class="save_link" href="javascript:void(0);">预览</a>
+                </div>
+            </div>
+
+            <div class="ctd_side_right">
+
+                <div class="yj_publish_blk cf" style="margin:10px">
+                    <a id="" class="save_link" style="visibility: hidden" href="javascript:void(0);">预览</a>
+
+                    <a id="btn_submit2" class="submit_btn" href="javascript:void(0);">发布</a>
+
+                    <a id="draft2" class="save_link" href="javascript:void(0);">保存草稿</a>
+                </div>
+
+
+                <!--游记目录-->
+
+                <div id="ctdCtBox"
+                     style="position: static; overflow: visible; top: auto; left: auto; right: auto; width: 300px; height: 197px;">
+                    <!--快速插图-->
+                    <div id="divQuick" class="ctd_side_boder ctd_ct_box">
+                        <h3 class="title3"><i class="ct_icon"></i>游记景点</h3>
+                        <!--暂无图片-->
+                        <div class="ctd_img_none">
+                            <ul class="list-group">
+                                <li class="list-group-item">Cras justo odio
+                                    <button class="btn  btn-xs btn-danger badge"><span
+                                                class="glyphicon glyphicon-remove"/></button>
+                                    <button class="btn btn-xs btn-primary badge"><span
+                                                class=" glyphicon glyphicon-pencil"/></button>
+                                    <button class="btn btn-xs btn-success badge"><span
+                                                class=" glyphicon glyphicon-plus"/></button>
+                                </li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                        <div class="ctd_img_none" style="display: none">
+                            <span class="clue">暂无地点</span>
+                        </div>
+
+                        <span class="ctd_upload_btn" id="ctUpload" href="#modal-container-99119" role="button"
+                              data-toggle="modal">选择景点</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="js/angular146/angular.min.js" type="text/javascript" charset="utf-8"></script><script src="js/jQuery1.11.3/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript"
+        src="http://api.map.baidu.com/api?v=2.0&ak=A4749739227af1618f7b0d1b588c0e85"></script>
+<script type="text/javascript"
+        src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+<script type="text/javascript" src="js/viewCtrl/map.js"></script>
+<script type="text/javascript" charset="utf-8" src="plugin/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="plugin/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="plugin/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" charset="utf-8"></script>
+<script src="plugin/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+<!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+<script type="text/javascript" charset="utf-8" src="plugin/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="js/viewCtrl/addTravels.js"></script>
+
+<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="bookmark" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="js/bootstrap/dist/css/bootstrap.min.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link charset="utf-8" type="text/css" rel="stylesheet"
+      href="http://webresource.c-ctrip.com/resgswebonline/R1/common/css/common.v2.0.css?t=20170803143800">
+<link charset="utf-8" type="text/css" rel="stylesheet"
+      href="http://webresource.c-ctrip.com/resgswebonline/R1/fed/css/fed.v2.0.css?t=20170803143800">
+<link charset="utf-8" type="text/css" rel="stylesheet"
+      href="http://webresource.c-ctrip.com/resgswebonline/R1//common/css/common.v2.0.css?t=20170803143800">
+<link charset="utf-8" type="text/css" rel="stylesheet"
+      href="http://webresource.c-ctrip.com/resgswebonline/R1//fed/css/fed.v2.0.css?t=20170803143800">
+<link charset="utf-8" type="text/css" rel="stylesheet"
+      href="http://webresource.c-ctrip.com/resgswebonline/R1//travelsv2/css/classic_travels_edit.v2.0.css?t=20170803143800">
+<style>
+    .cover_show {
+        width: 500px;
+        height: 164px;
+        margin: 0 auto;
+        background: url(http://pages.c-ctrip.com/gs_static/travels/img/cover_show_bg.png?t=450faf02cb518894ce367db3d5341807);
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cover_show_mask {
+        width: 500px;
+        height: 164px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(http://pages.c-ctrip.com/gs_static/travels/img/cover_show_mask.png?t=0f36fc378837ce9f469f069aa0e91701);
+        _background-image: url(http://pages.c-ctrip.com/gs_static/travels/img/cover_show_mask.gif?t=2ffb4f82f4e1474841b97f1a33ff4ce5);
+        z-index: 2;
+        cursor: move;
+        background-size: 100% 100%;
+    }
+
+    .cover_show img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 500px;
+    }
+
+    .cover_show_mask p, .cover_show_mask div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 180px;
+        height: 24px;
+        margin: -12px 0 0 -90px;
+        z-index: 2;
+    }
+
+    .cover_show_mask div {
+        background-color: #000;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+        z-index: 1;
+        display: none;
+    }
+
+    .ctd_main_left input.yj_write_title {
+        width: 800px;
+        height: 70px;
+        line-height: 70px;
+        border: solid #e6e6e6 1px;
+        color: #a9a9a9;
+        font-size: 24px;
+        padding: 0 29px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        outline: medium;
+    }
+
+    .gl_container {
+        width: 100%;
+        background: #f2f2f2;
+    }
+    #allmap {
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+</style>
+</html>

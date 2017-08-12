@@ -1,0 +1,50 @@
+<!--A4749739227af1618f7b0d1b588c0e85-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/dist/css/bootstrap.min.css"/>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #allmap {
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            margin-left: 5px;
+            font-size: 14px;
+        }
+    </style>
+
+    <title>添加定位相关控件</title>
+</head>
+<body>
+<div id="dg" style="z-index: 9999; position: fixed ! important; left: 60px; top: 30px;">
+    <div class="input-group col-md-2" >
+        <input id="searchInput" type="text" class="form-control" placeholder="请输入查询地区" />
+        <span class="input-group-btn">
+               <button class="btn btn-info btn-search" id="searchBtn">查找</button>
+        </span>
+    </div>
+</div>
+<div class="col-md-6" id="allmap"></div>
+
+</body>
+</html>
+<script src="js/angular146/angular.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jQuery1.11.3/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript"
+        src="http://api.map.baidu.com/api?v=2.0&ak=A4749739227af1618f7b0d1b588c0e85"></script>
+<script type="text/javascript"
+        src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+<script type="text/javascript" src="js/viewCtrl/addMap.js"></script>
+<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
