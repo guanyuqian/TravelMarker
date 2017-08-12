@@ -12,15 +12,17 @@ exports.addAttractions = function (req, res) {
     var newAttractions = {
         name: req.body.name,
         date: req.body.date,
-        pointX: req.body.pointX,
-        pointY: req.body.pointY
+        location:{
+            x: req.body.pointX,
+            y: req.body.pointY
+        }
     }
 
     var attractionsDB = db.get('Attractions');
 
 
     // Submit to the DB
-    collection.insert(newAttractions
+    attractionsDB.insert(newAttractions
         , function (err, doc) {
             if (err) {
                 // If it failed, return error

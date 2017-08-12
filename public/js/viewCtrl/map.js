@@ -32,13 +32,14 @@ geolocationControl.addEventListener("locationError", function (e) {
     alert(e.message);
 });
 var local = new BMap.LocalSearch(map, {
-    renderOptions:{map: map}
+    renderOptions: {map: map}
 });
 //地图点击标记选取
-function clickHandler(e){
+function clickHandler(e) {
     console.log(e.point.lng + ", " + e.point.lat);
     addMark(e.point);
 }
+map.addEventListener('click', clickHandler);
 local.search("景点");
 map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
 map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
@@ -46,36 +47,57 @@ map.disableDoubleClickZoom();
 map.addControl(geolocationControl);
 
 
-map.addEventListener('click', clickHandler);
+//http://www.voidcn.com/blog/zhujianli1314/article/p-4270291.html
+//设置地图中心点
 
+//获取当前位置？
 
-var geolocation = new BMap.Geolocation();
-geolocation.getCurrentPosition(function(r){
-    if(this.getStatus() == BMAP_STATUS_SUCCESS){
-       addMark(r.point);
-       // map.addOverlay(mk);
-      //  map.panTo(r.point);
-       // alert('您的位置：'+r.point.lng+','+r.point.lat);
-    }
-    else {
-        //alert('failed'+this.getStatus());
-    }
-},{enableHighAccuracy: true})
+var centerPoint
+function iniCenter() {
 
+    var geolocation = new BMap.Geolocation();
+    geolocation.getCurrentPosition(function (r) {
+        if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+            addMarkAndSetCenterZoom(r.point);
+        }
+        else {
+        }
+    }, {enableHighAccuracy: true});
+}
+var marker;
 //加载mark
-function addMark(point){
+function addMark(point) {
+    centerPoint=point;
     var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {
         offset: new BMap.Size(10, 25), // 指定定位位置
         imageOffset: new BMap.Size(0, 0 - 10 * 25) // 设置图片偏移
     });
     console.log(point);
-    var marker=new BMap.Marker(point,{icon:myIcon});
+    marker = new BMap.Marker(point, {icon: myIcon});
     map.clearOverlays();
     map.addOverlay(marker);
-   $('#addAttractionsLocationX').val(point.lng);
-   $('#addAttractionsLocationY').val(point.lat);
+    $('#addAttractionsLocationX').val(point.lng);
+    $('#addAttractionsLocationY').val(point.lat);
 }
-$(document).ready(function() {
+//根据坐标加载mark,并且居中点
+function CoordinatesAddMarkAndSetCenter(lng, lat) {
+    var point = new BMap.Point(lng, lat);
+    addMarkAndSetCenterZoom(point);
+
+}
+function MapPanBy(mapDiv) {
+    var width=mapDiv.width() / 2;
+    var height= mapDiv.height() / 2
+    map.panBy(width,height);//中心点偏移多少像素（width,height）为div 宽高的1/2;
+
+}
+//将点置中，标记，缩放
+function addMarkAndSetCenterZoom(point) {
+    map.panTo(point);
+    //map.centerAndZoom(point, 5);
+    addMark(point);
+}
+$(document).ready(function () {
 
     $("#searchBtn").click(function () {
         console.log('searchLocation()');

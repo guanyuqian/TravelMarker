@@ -6,11 +6,11 @@
 
 </head>
 <BODY>
-<div class="container">
+<div class="container" id="">
     <div class="row clearfix">
         <div class="col-md-12 column">
 
-            <div class="modal fade" id="modal-container-99119" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="attractionDialog" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog" style="width:80%;" >
                     <div class="modal-content">
                         <div class="modal-header">
@@ -19,7 +19,7 @@
                                 选择地点
                             </h4>
                         </div>
-                        <div class="modal-body"style="height: 500px">
+                        <div class="modal-body"style="height: 500px"  id="mapDialog">
                             <div class="col-md-12">
                                 <div class="col-md-6" >
                                 <label for="name">名称</label>
@@ -96,7 +96,7 @@
                         <h3 class="title3"><i class="ct_icon"></i>游记景点</h3>
                         <!--暂无图片-->
                         <div class="ctd_img_none">
-                            <ul class="list-group">
+                            <ul id="AttractionsPanel" class="list-group">
                                 <li class="list-group-item">Cras justo odio
                                     <button class="btn  btn-xs btn-danger badge"><span
                                                 class="glyphicon glyphicon-remove"/></button>
@@ -115,8 +115,8 @@
                             <span class="clue">暂无地点</span>
                         </div>
 
-                        <span class="ctd_upload_btn" id="ctUpload" href="#modal-container-99119" role="button"
-                              data-toggle="modal">选择景点</span>
+                        <span class="ctd_upload_btn" id="ctUpload" href="#attractionDialog" role="button"
+                              data-toggle="modal">添加景点</span>
                     </div>
                 </div>
             </div>
