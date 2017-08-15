@@ -38,7 +38,6 @@ function insertAttraction(clickBtn) {
     ue.execCommand('insertHtml', value)
 }
 
-
 //删除单个景点
 function removeAttraction(clickBtn) {
     var index = clickBtn.name;
@@ -107,6 +106,7 @@ function getCurrentDate() {
 //实例化编辑器
 //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
 var ue = UE.getEditor('editor');
+
 function isFocus(e) {
     alert(UE.getEditor('editor').isFocus());
     UE.dom.domUtils.preventDefault(e)
@@ -161,7 +161,7 @@ function getText() {
     var range = UE.getEditor('editor').selection.getRange();
     range.select();
     var txt = UE.getEditor('editor').selection.getText();
-    alert(txt)
+    alert(txt);
 }
 
 function getContentTxt() {
@@ -210,5 +210,5 @@ function getLocalData() {
 
 function clearLocalData() {
     UE.getEditor('editor').execCommand("clearlocaldata");
-    alert("已清空草稿箱")
+    alert("已清空草稿箱");
 }
