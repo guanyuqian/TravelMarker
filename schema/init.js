@@ -1,0 +1,2 @@
+require('./articleSchema');
+require('./travelSchema');

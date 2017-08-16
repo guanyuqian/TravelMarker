@@ -1,38 +1,31 @@
 /*
  * GET users listing.
  */
+var genericPool = require('../db/db');
+var TravelSchema = require('../schema/travelSchema');
+
 exports.renderToView = function (req, res) {
     res.render('addTravels', {title: 'AddTravels'});
 };
 
-exports.addAttractions = function (req, res) {
-    var monk = require('monk');
-    //连接并打开数据库
-    var db = monk('localhost:27017/TravelMark');
-    var newAttractions = {
-        name: req.body.name,
-        date: req.body.date,
-        location:{
-            x: req.body.pointX,
-            y: req.body.pointY
-        }
-    }
-
-    var attractionsDB = db.get('Attractions');
-
-
-    // Submit to the DB
-    attractionsDB.insert(newAttractions
-        , function (err, doc) {
-            if (err) {
-                // If it failed, return error
-                res.send("There was a problem adding the information to the database.");
-            }
-            else {
-                // If it worked, set the header so the address bar doesn't still say /adduser
-                res.location("userlist");
-                // And forward to success page
-                res.redirect("userlist");
-            }
+exports.addTravels = function (req, res) {
+    var travel = new TravelSchema.Travel(req.body);
+    var resMsg = {
+        message: '', detail: '', dataObj: ''
+    };
+    try {
+        genericPool.dbpool.acquire(function (err, client) {
+            client.collection('Travels').save(travel);
+            resMsg.message = '添加成功';
         });
+    } catch (e) {
+        resMsg.message = '添加失败';
+    }
+    finally {
+        genericPool.dbpool.release(client);
+    }
+    res.json(resMsg);
 };
+
+
+

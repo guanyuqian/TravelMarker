@@ -25,7 +25,7 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
 
-            <div class="modal fade" id="attractionDialog" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="ScenicDialog" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog" style="width:80%;" >
                     <div class="modal-content">
                         <div class="modal-header">
@@ -38,12 +38,12 @@
                             <div class="col-md-12">
                                 <div class="col-md-6" >
                                 <label for="name">名称</label>
-                                <input type="text" class="form-control" id="addAttractionsName" placeholder="请输入名称">
+                                <input type="text" class="form-control" id="addScenicsName" placeholder="请输入名称">
                                 </div>
                                 <div class="col-md-6" >
                                     <label for="name">时间</label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control form_datetime" id="addAttractionsDate" name="addAttractionsDate" placeholder="">
+                                        <input type="text" class="form-control form_datetime" id="addScenicsDate" name="addScenicsDate" placeholder="">
                                         <span class="input-group-addon icon-remove" id="basic-addon2"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
 
                                     </div>
@@ -58,13 +58,13 @@
                                         </span>
                                     </div>
                                 </div>
-                                <input type="text" id='addAttractionsLocationX' style="display: none">
-                                <input type="text" id='addAttractionsLocationY' style="display: none">
+                                <input type="text" id='addScenicsLocationX' style="display: none">
+                                <input type="text" id='addScenicsLocationY' style="display: none">
                                 <div class="col-md-12" id="allmap"></div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id='addAttractions' type="button" class="btn btn-primary">保存</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id='addScenics' type="button" class="btn btn-primary">保存</button>
                         </div>
                     </div>
                 </div>
@@ -80,12 +80,12 @@
                     <h1>编辑游记</h1>
                     <a href="http://you.ctrip.com/travels/shanghai2/3356344.html" target="_blank">常见问答说明</a>
                 </div>
-                <input class="yj_write_title" width="100%" type="text" placeholder="请在这里输入游记标题（40字内）">
+                <input class="yj_write_title" id="TravelTitle" width="100%" type="text" placeholder="请在这里输入游记标题（40字内）">
                 <!--编辑框-->
-                <div class="editor_content"  min-height="600px";>
-                            <script id="editor" type="text/plain" class="ctd_main_body" style="width: 800px; min-height:600px;"></script></div>
+                <div class="editor_content"  min-height="200px";>
+                            <script id="editor" type="text/plain" class="ctd_main_body" style="width: 800px; min-height:530px;"></script></div>
                 <div class="yj_publish_blk" style="margin:10px">
-                    <a id="btn_submit1" class="submit_btn" href="javascript:void(0);">发布</a>
+                    <a id="btn_submit1" class="submit_btn" onclick="addTravels" href="javascript:void(0);">发布</a>
                     <a id="draft1" class="save_link" href="javascript:void(0);">保存草稿</a>
                     <a id="" class="save_link" href="javascript:void(0);">预览</a>
                 </div>
@@ -96,41 +96,28 @@
                 <div class="yj_publish_blk cf" style="margin:10px">
                     <a id="" class="save_link" style="visibility: hidden" href="javascript:void(0);">预览</a>
 
-                    <a id="btn_submit2" class="submit_btn" href="javascript:void(0);">发布</a>
+                    <a id="btn_submit2" onclick="addTravels" class="submit_btn" href="javascript:void(0);">发布</a>
 
                     <a id="draft2" class="save_link" href="javascript:void(0);">保存草稿</a>
                 </div>
 
 
                 <!--游记目录-->
-
                 <div id="ctdCtBox"
                      style="position: static; overflow: visible; top: auto; left: auto; right: auto; width: 300px; height: 197px;">
                     <!--快速插图-->
                     <div id="divQuick" class="ctd_side_boder ctd_ct_box">
                         <h3 class="title3"><i class="ct_icon"></i>游记景点</h3>
                         <!--暂无图片-->
-                        <div class="ctd_img_none">
-                            <ul id="AttractionsPanel" class="list-group">
-                                <li class="list-group-item">Cras justo odio
-                                    <button class="btn  btn-xs btn-danger badge"><span
-                                                class="glyphicon glyphicon-remove"/></button>
-                                    <button class="btn btn-xs btn-primary badge"><span
-                                                class=" glyphicon glyphicon-pencil"/></button>
-                                    <button class="btn btn-xs btn-success badge"><span
-                                                class=" glyphicon glyphicon-plus"/></button>
-                                </li>
-                                <li class="list-group-item">Dapibus ac facilisis in</li>
-                                <li class="list-group-item">Morbi leo risus</li>
-                                <li class="list-group-item">Porta ac consectetur ac</li>
-                                <li class="list-group-item">Vestibulum at eros</li>
+                        <div id="ctd_img_no_none"class="ctd_img_no_none">
+                            <ul id="ScenicsPanel" class="list-group">
                             </ul>
                         </div>
-                        <div class="ctd_img_none" style="display: none">
+                        <div id="ctd_img_none"class="ctd_img_none">
                             <span class="clue">暂无地点</span>
                         </div>
 
-                        <span class="ctd_upload_btn" id="ctUpload" href="#attractionDialog" role="button"
+                        <span class="ctd_upload_btn" id="ctUpload" href="#ScenicDialog" role="button"
                               data-toggle="modal">添加景点</span>
                     </div>
                 </div>
@@ -153,10 +140,14 @@
 <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
 <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.config.js"></script>
 <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="plugin/MyUeditor.js"></script>
 <script type="text/javascript" charset="utf-8" src="ueditor/lang/zh-cn/zh-cn.js"></script>
 <script type="text/javascript" src="js/viewCtrl/addTravels.js"></script>
 
 <style>
+
+
+
     .cover_show {
         width: 500px;
         height: 164px;

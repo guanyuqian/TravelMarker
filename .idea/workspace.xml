@@ -2,588 +2,111 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" line="36" />
-    <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" line="107" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d560b1eb-869d-43a2-8a58-396749210514" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/buffer-crc32/tests/crc.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/lib/commander.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/connect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/basicAuth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/bodyParser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/compress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/cookieParser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/cookieSession.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/csrf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/directory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/errorHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/favicon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/limit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/logger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/methodOverride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/query.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/responseTime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/memory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/static.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/staticCache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/timeout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/urlencoded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/middleware/vhost.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/proto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/directory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_attach.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_excel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_key.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_lightning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_paintbrush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_acrobat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_actionscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_code_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_coldfusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_compressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cplusplus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_csharp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_database.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_dvd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_excel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_flash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_freehand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_get.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_key.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_lightning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_magnify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_medal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_office.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paintbrush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_php.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_powerpoint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_put.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_ruby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_stack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_swoosh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_text_width.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_tux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_vector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_visualstudio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_width.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_word.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_zip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_word.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/public/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/test/mocha.opts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/cookie/test/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/lib/send.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/send/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-signature/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie/test/mocha.opts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie/test/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/bin/express" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/benchmark/bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/example/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/example/post.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/example/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/beta-sticker-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/binaryfile.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/funkyfilename.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/menu_separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/plain.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/http/special-chars-in-filename/info.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/misc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/no-filename.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/preamble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/workarounds.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-fixtures.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-octet-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-incoming-form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/run.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-connection-aborted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-content-transfer-encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-issue-46.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/tools/base64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-incoming-form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/formidable/tool/record.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fresh/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fresh/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mime/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mime/types/mime.types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mime/types/node.types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkdirp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/pause/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/qs/.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/qs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/qs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/range-parser/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/range-parser/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/lib/send.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/mime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/types/mime.types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/send/node_modules/mime/types/node.types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/anchor/anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/attachment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/attachment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/attachment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/attachment/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/background/background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/background/background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/background/background.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/background/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/background/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/chart.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/charts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/emotion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/emotion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/emotion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/gmap/gmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/help/help.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/help/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/help/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/image/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/link/link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/map/show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/music/music.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/music/music.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/music/music.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/preview/preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/spechars/spechars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/spechars/spechars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/dragicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/edittable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/edittable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/edittable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/edittd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/table/edittip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/pre0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/pre1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/pre2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/pre3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/images/pre4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/images/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/video/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/webapp/webapp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/controller.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/lib/json.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/jsp/lib/ueditor-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/addimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/deletedisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/deleteenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/listbackground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/en/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/zh-cn/images/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/css/ueditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/dialogbase.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/arrow_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/arrow_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/button-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/charts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/cursor_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/cursor_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/filescan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/highlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/icons-all.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/loaderror.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/lock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/sparator_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/videologo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/word.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/default/images/wordpaste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/themes/iframe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/video-js.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/video-js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/video.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/video-js/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/xss.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/ueditor.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/ueditor.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/ueditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/ueditor.parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/ueditor.parse.min.js" afterPath="" />
+    <list default="true" id="d560b1eb-869d-43a2-8a58-396749210514" name="Default" comment="fix: CUD Attractions is fine&#10;&#10;next story: uedit's image upload">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonResDTO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugin/MyUeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schema/init.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/bytes/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/ms/license.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/ms/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.jscs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/dist/qs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/formats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897444139384311808.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897444356112388096.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897488986300354560.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897489621020184576.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897489835483336704.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897489882656673792.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897490208310824960.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897490287952269312.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897491082122760192.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897491741110833152.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897493076094881792.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897493604124200960.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897497688982032384.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897497909707280384.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897499751682019328.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ueditor/897500785112387584.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/articleModel.js" afterPath="$PROJECT_DIR$/models/articleModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/express" afterPath="$PROJECT_DIR$/node_modules/.bin/express" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/express.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/express.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/History.md" afterPath="$PROJECT_DIR$/node_modules/commander/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" afterPath="$PROJECT_DIR$/node_modules/commander/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/index.js" afterPath="$PROJECT_DIR$/node_modules/commander/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie-signature/History.md" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie-signature/index.js" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie/LICENSE" afterPath="$PROJECT_DIR$/node_modules/cookie/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie/README.md" afterPath="$PROJECT_DIR$/node_modules/cookie/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie/index.js" afterPath="$PROJECT_DIR$/node_modules/cookie/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/Readme.md" afterPath="$PROJECT_DIR$/node_modules/fresh/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/index.js" afterPath="$PROJECT_DIR$/node_modules/fresh/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/methods/index.js" afterPath="$PROJECT_DIR$/node_modules/methods/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/node_modules/mime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/mime/mime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/README.markdown" afterPath="$PROJECT_DIR$/node_modules/mkdirp/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/Readme.md" afterPath="$PROJECT_DIR$/node_modules/qs/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/History.md" afterPath="$PROJECT_DIR$/node_modules/range-parser/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/Readme.md" afterPath="$PROJECT_DIR$/node_modules/range-parser/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/index.js" afterPath="$PROJECT_DIR$/node_modules/range-parser/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/History.md" afterPath="$PROJECT_DIR$/node_modules/send/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/Readme.md" afterPath="$PROJECT_DIR$/node_modules/send/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/index.js" afterPath="$PROJECT_DIR$/node_modules/send/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/addTravelsCtrl.js" afterPath="$PROJECT_DIR$/controllers/addTravelsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/articleCtrl.js" afterPath="$PROJECT_DIR$/controllers/articleCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/.npmignore" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/Changelog.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/Changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-codec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/index.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/internal.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/internal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf16.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf16.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf7.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/utf7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/index.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" afterPath="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/viewCtrl/map.js" afterPath="$PROJECT_DIR$/public/js/viewCtrl/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/addTravels.ejs" afterPath="$PROJECT_DIR$/views/addTravels.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/plugin/ueditor/index.html" afterPath="$PROJECT_DIR$/views/ueditor.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_router.js" afterPath="$PROJECT_DIR$/web_router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/articleModel.js" afterPath="$PROJECT_DIR$/schema/articleSchema.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/attractionModel.js" afterPath="$PROJECT_DIR$/schema/travelSchema.js" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -608,143 +131,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="addTravels.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addTravels.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/addTravels.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="128" lean-forward="false" selection-start-line="20" selection-start-column="128" selection-end-line="20" selection-end-column="128" />
-              <folding>
-                <element signature="n#style#0;n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#BODY#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#BODY#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="112" column="68" lean-forward="false" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addTravels.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addTravels.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="398">
+              <caret line="127" column="21" lean-forward="true" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
               <folding>
-                <marker date="1502815442654" expanded="true" signature="1218:1238" ph="..." />
+                <marker date="1502890756248" expanded="true" signature="1140:1160" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articleModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/articleModel.js">
+      <file leaf-file-name="MyUeditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/plugin/MyUeditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
-              <folding />
+            <state relative-caret-position="2576">
+              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iframe.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
+      <file leaf-file-name="addTravelsCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="addMap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="176" column="48" lean-forward="false" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2720">
-              <caret line="327" column="34" lean-forward="false" selection-start-line="327" selection-start-column="34" selection-end-line="327" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ueditor.all.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10927" column="35" lean-forward="true" selection-start-line="10927" selection-start-column="35" selection-end-line="10927" selection-end-column="35" />
+            <state relative-caret-position="56">
+              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
-                <marker date="1502816441184" expanded="true" signature="385899:385916" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="390942:390960" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="391086:391118" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="391968:392000" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="437585:437611" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="582661:582737" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="612346:612418" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="623170:623196" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="623396:623487" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="623777:623852" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="624067:624082" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="624317:624371" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="637598:637691" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="708107:708179" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="729055:729067" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="731539:731563" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="759117:759123" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="759123:759129" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="759233:759239" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="759239:759245" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="759349:759355" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="759355:759361" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="761670:761676" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="761676:761682" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="762707:762713" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="762713:762719" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="762863:762869" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="762869:762875" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="763021:763027" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="763027:763033" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="763181:763187" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="763187:763193" ph="&amp;nbsp;" />
-                <marker date="1502816441184" expanded="true" signature="764056:764067" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="768336:768349" ph="..." />
-                <marker date="1502816441184" expanded="true" signature="768742:768778" ph="..." />
+                <marker date="1502011419296" expanded="true" signature="1301:1333" ph="..." />
+                <marker date="1502011419296" expanded="true" signature="1382:1404" ph="..." />
+                <marker date="1502011419296" expanded="true" signature="1509:1564" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ueditor.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+      <file leaf-file-name="JsonResDTO.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsonResDTO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="46">
+              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMapCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/addMapCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <file leaf-file-name="articleCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/articleCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articleSchema.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schema/articleSchema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -760,36 +254,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>html</find>
-      <find>description</find>
-      <find>.description</find>
-      <find>for</find>
-      <find>insertHtml</find>
-      <find>inserti</find>
-      <find>travelsv2</find>
-      <find>filterRules</find>
-      <find>&lt;/b</find>
-      <find>UEDITOR_CONFIG</find>
-      <find>inserthtml</find>
-      <find>http://webresource.c-ctrip.com/resgswebonline/R1//travelsv2/css/classic_travels_edit.v2.0.css?t=20170803143800</find>
-      <find>insert</find>
-      <find>insertimage</find>
-      <find>allowDivTransToP</find>
-      <find>height</find>
-      <find>hei</find>
-      <find>uedit</find>
+      <find>aja</find>
+      <find>/addTravels/addScenics</find>
+      <find>addTravels/addScenics</find>
+      <find>addTravels</find>
+      <find>发布</find>
+      <find>submi</find>
+      <find>postdata</find>
+      <find>postData</find>
+      <find>postDataList</find>
+      <find>gene-pool</find>
+      <find>genepool</find>
+      <find>gene pool</find>
+      <find>编辑</find>
+      <find>ajax</find>
+      <find>Scenics.</find>
+      <find>EditData.</find>
+      <find>EditData.date</find>
+      <find>post</find>
+      <find>startDate</find>
+      <find>pool</find>
+      <find>bodypa</find>
+      <find>rou</find>
+      <find>bodyParser</find>
+      <find>submit</find>
+      <find>addTravel</find>
+      <find>current</find>
+      <find>getall</find>
+      <find>add</find>
       <find>ue</find>
-      <find>scri</find>
-      <find>initialStyle</find>
-      <find>element.styl</find>
-      <find>iframe</find>
-      <find>sc</find>
-      <find>scr</find>
-      <find>scro</find>
-      <find>scrol</find>
-      <find>scroll</find>
-      <find>autoHeightEnabled</find>
-      <find>ins</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -797,6 +291,8 @@
       <replace>article</replace>
       <replace>col-md-</replace>
       <replace>TravelMark</replace>
+      <replace>Scenic</replace>
+      <replace>Scenics</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master</dir>
@@ -819,10 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/d01.html" />
-        <option value="$PROJECT_DIR$/views/d02.html" />
-        <option value="$PROJECT_DIR$/views/d03.html" />
-        <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/schema/movieSchema.js" />
         <option value="$PROJECT_DIR$/routes/map.js" />
@@ -841,30 +333,39 @@
         <option value="$PROJECT_DIR$/views/addMap.ejs" />
         <option value="$PROJECT_DIR$/views/map.ejs" />
         <option value="$PROJECT_DIR$/controllers/mapCtrl.js" />
-        <option value="$PROJECT_DIR$/web_router.js" />
         <option value="$PROJECT_DIR$/models/AttractionModel.js" />
         <option value="$PROJECT_DIR$/.project" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/controllers/articleCtrl.js" />
         <option value="$PROJECT_DIR$/controllers/bookCtrl.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/models/init.js" />
-        <option value="$PROJECT_DIR$/controllers/addTravelsCtrl.js" />
         <option value="$PROJECT_DIR$/models/attractionModel.js" />
-        <option value="$PROJECT_DIR$/public/js/viewCtrl/map.js" />
         <option value="$PROJECT_DIR$/public/plugin/ueditor/ueditor.config.js" />
         <option value="$PROJECT_DIR$/public/plugin/ueditor/jsp/config.json" />
         <option value="$PROJECT_DIR$/public/plugin/ueditor/ueditor.all.js" />
         <option value="$PROJECT_DIR$/views/ueditor.ejs" />
         <option value="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/articleModel.js" />
-        <option value="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
         <option value="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
+        <option value="$PROJECT_DIR$/public/js/viewCtrl/map.js" />
+        <option value="$PROJECT_DIR$/schema/scenicSchema.js" />
+        <option value="$PROJECT_DIR$/schema/init.js" />
+        <option value="$PROJECT_DIR$/config/env.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/controllers/articleCtrl.js" />
+        <option value="$PROJECT_DIR$/web_router.js" />
+        <option value="vm:831" />
+        <option value="$PROJECT_DIR$/schema/travelSchema.js" />
+        <option value="$PROJECT_DIR$/db/db.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controllers/jsonResDTO.js" />
+        <option value="$PROJECT_DIR$/config/jsonResDTO.js" />
+        <option value="$PROJECT_DIR$/controllers/addTravelsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/plugin/MyUeditor.js" />
         <option value="$PROJECT_DIR$/views/addTravels.ejs" />
+        <option value="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" />
       </list>
     </option>
   </component>
@@ -955,6 +456,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -969,7 +498,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -996,19 +607,19 @@
     <property name="node.js.selected.package.stylelint" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\workspace\TravelMarker" />
+      <recent name="T:\workspace\TravelMarker\config" />
+      <recent name="T:\workspace\TravelMarker\public" />
+      <recent name="T:\workspace\TravelMarker\public\plugin" />
+      <recent name="C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master\public\plugin\bootstrap-datetimepicker-master\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="T:\workspace\TravelMarker\public" />
       <recent name="T:\workspace\TravelMarker\views" />
       <recent name="T:\workspace\TravelMarker" />
       <recent name="T:\workspace\TravelMarker\lib" />
       <recent name="C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master\models" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="T:\workspace\TravelMarker\public" />
-      <recent name="T:\workspace\TravelMarker\public\plugin" />
-      <recent name="C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master\public\plugin\bootstrap-datetimepicker-master\js" />
-      <recent name="C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master\public\plugin" />
-      <recent name="C:\Users\the_s\Desktop\bookstore\AngularJS04_BookStore-master\public\plugin\utf8-jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1468,7 +1079,7 @@
       <workItem from="1502524097576" duration="21356000" />
       <workItem from="1502597244359" duration="803000" />
       <workItem from="1502598065620" duration="7155000" />
-      <workItem from="1502728382742" duration="15594000" />
+      <workItem from="1502728382742" duration="36076000" />
     </task>
     <task id="LOCAL-00001" summary="fix: CUD Attractions is fine&#10;&#10;next story: uedit's image upload">
       <created>1502597367609</created>
@@ -1481,7 +1092,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96502000" />
+    <option name="totallyTimeSpent" value="116984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1494,24 +1105,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39267015" sideWeight="0.51044935" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28510183" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27545553" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149946" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31404072" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25268242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25268242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1519,7 +1129,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38906753" sideWeight="0.48955068" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12754555" sideWeight="0.48955068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1532,9 +1142,10 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39267015" sideWeight="0.51044935" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1542,17 +1153,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39334026" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39756367" sideWeight="0.48955068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26326743" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6597077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28460687" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3145072" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29002464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1569,43 +1180,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>8</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>24</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>32</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>34</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>28</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/addTravelsCtrl.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
         <watch expression="__dirname" language="JavaScript" />
+        <watch expression="req.data" language="JavaScript" />
+        <watch expression="req.body" language="JavaScript" />
+        <watch expression="Travel" language="JavaScript" />
+        <watch expression="req.body.ScenicList" language="JavaScript" />
+        <watch expression="req.body.publishDate" language="JavaScript" />
+        <watch expression="req.body" />
+        <watch expression="travel._doc.title" />
       </configuration>
     </watches-manager>
   </component>
@@ -1614,115 +1200,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BookStore.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.tern-project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/angular146/angular-resource.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="303" lean-forward="false" selection-start-line="8" selection-start-column="303" selection-end-line="8" selection-end-column="303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1130">
-          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/index.js" />
-    <entry file="file://$PROJECT_DIR$/router/map.js" />
-    <entry file="file://$PROJECT_DIR$/router/books.js" />
-    <entry file="file://$PROJECT_DIR$/controllers/indexCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/addMapCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="193" column="58" lean-forward="false" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/mapCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap/less/glyphicons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="693" column="56" lean-forward="false" selection-start-line="693" selection-start-column="48" selection-end-line="693" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/movieSchema.js" />
-    <entry file="file://$PROJECT_DIR$/web_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -1747,13 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/bookCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-602">
@@ -1761,43 +1231,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/attractionModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/articleCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/plugin/ueditor/dialogs/map/map.html" />
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1819,14 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/map.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1853,13 +1279,13 @@
         <state relative-caret-position="4186">
           <caret line="182" column="14" lean-forward="false" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
           <folding>
-            <marker date="1502729870131" expanded="true" signature="0:51825" ph="{&quot;name&quot;: &quot;TravelMark&quot;...}" />
-            <marker date="1502729870131" expanded="true" signature="110:51823" ph="{...}" />
-            <marker date="1502729870131" expanded="true" signature="51153:51159" ph="{&quot;version&quot;: &quot;1.12.0&quot;...}" />
-            <marker date="1502729870131" expanded="true" signature="51180:51454" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
-            <marker date="1502729870131" expanded="true" signature="51366:51448" ph="{&quot;semver&quot;: &quot;https://registry.npmjs.org/semver/-/semver-5.3.0.tgz&quot;...}" />
-            <marker date="1502729870131" expanded="true" signature="51472:51638" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1502729870131" expanded="true" signature="51655:51819" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="0:56920" ph="{&quot;name&quot;: &quot;TravelMark&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="110:56918" ph="{...}" />
+            <marker date="1502886769284" expanded="true" signature="51679:51685" ph="{&quot;version&quot;: &quot;1.12.0&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="51706:51980" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="51892:51974" ph="{&quot;semver&quot;: &quot;https://registry.npmjs.org/semver/-/semver-5.3.0.tgz&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="51998:52164" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1502886769284" expanded="true" signature="56906:56914" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1869,8 +1295,8 @@
         <state relative-caret-position="211">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
-            <marker date="1502729870017" expanded="true" signature="0:443" ph="{&quot;name&quot;: &quot;TravelMark&quot;...}" />
-            <marker date="1502729870017" expanded="true" signature="132:441" ph="{&quot;body-parser&quot;: &quot;^1.17.2&quot;...}" />
+            <marker date="1502886769199" expanded="true" signature="0:530" ph="{&quot;name&quot;: &quot;TravelMark&quot;...}" />
+            <marker date="1502886769199" expanded="true" signature="132:528" ph="{&quot;body-parser&quot;: &quot;^1.17.2&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1891,22 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/articleModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1923,50 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10927" column="35" lean-forward="true" selection-start-line="10927" selection-start-column="35" selection-end-line="10927" selection-end-column="35" />
-          <folding>
-            <marker date="1502816441184" expanded="true" signature="385899:385916" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="390942:390960" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="391086:391118" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="391968:392000" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="437585:437611" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="582661:582737" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="612346:612418" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="623170:623196" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="623396:623487" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="623777:623852" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="624067:624082" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="624317:624371" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="637598:637691" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="708107:708179" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="729055:729067" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="731539:731563" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="759117:759123" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="759123:759129" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="759233:759239" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="759239:759245" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="759349:759355" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="759355:759361" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="761670:761676" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="761676:761682" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="762707:762713" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="762713:762719" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="762863:762869" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="762869:762875" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="763021:763027" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="763027:763033" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="763181:763187" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="763187:763193" ph="&amp;nbsp;" />
-            <marker date="1502816441184" expanded="true" signature="764056:764067" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="768336:768349" ph="..." />
-            <marker date="1502816441184" expanded="true" signature="768742:768778" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1978,28 +1344,309 @@
     <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/generic-pool/lib/factoryValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/generic-pool/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="3998" column="113" lean-forward="false" selection-start-line="3998" selection-start-column="113" selection-end-line="3998" selection-end-column="113" />
           <folding>
-            <marker date="1502815442654" expanded="true" signature="1218:1238" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="385899:385916" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="390942:390960" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="391086:391118" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="391968:392000" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="437585:437611" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="582661:582737" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="612346:612418" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="623170:623196" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="623396:623487" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="623777:623852" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="624067:624082" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="624317:624371" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="637598:637691" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="708107:708179" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="729055:729067" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="731539:731563" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="759117:759123" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="759123:759129" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="759233:759239" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="759239:759245" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="759349:759355" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="759355:759361" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="761670:761676" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="761676:761682" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="762707:762713" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="762713:762719" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="762863:762869" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="762869:762875" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="763021:763027" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="763027:763033" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="763181:763187" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="763187:763193" ph="&amp;nbsp;" />
+            <marker date="1502870257404" expanded="true" signature="764056:764067" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="768336:768349" ph="..." />
+            <marker date="1502870257404" expanded="true" signature="768742:768778" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular146/angular-scenario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/map.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="209" column="10" lean-forward="false" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="201" column="14" lean-forward="false" selection-start-line="201" selection-start-column="14" selection-end-line="201" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="404" column="12" lean-forward="false" selection-start-line="404" selection-start-column="12" selection-end-line="404" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/generic-pool/lib/generic-pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="427" column="0" lean-forward="false" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/travelSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/addMapCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="196" column="6" lean-forward="false" selection-start-line="196" selection-start-column="6" selection-end-line="196" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/articleSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsonResDTO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+          <folding>
+            <marker date="1502011419296" expanded="true" signature="1301:1333" ph="..." />
+            <marker date="1502011419296" expanded="true" signature="1382:1404" ph="..." />
+            <marker date="1502011419296" expanded="true" signature="1509:1564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/articleCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugin/MyUeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2576">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/addTravels.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="128" lean-forward="false" selection-start-line="20" selection-start-column="128" selection-end-line="20" selection-end-column="128" />
+        <state relative-caret-position="208">
+          <caret line="112" column="68" lean-forward="false" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="127" column="21" lean-forward="true" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#BODY#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#BODY#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1502890756248" expanded="true" signature="1140:1160" ph="..." />
           </folding>
         </state>
       </provider>

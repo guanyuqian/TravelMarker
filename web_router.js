@@ -6,6 +6,8 @@ var mapCtrl = require('./controllers/mapCtrl');
 var addMapCtrl = require('./controllers/addMapCtrl');
 var addTravelsCtrl = require('./controllers/addTravelsCtrl');
 var articleCtrl = require('./controllers/articleCtrl');
+
+
 exports.setRouter = function (app) {
     //render
     app.get('/map', mapCtrl.viewMap);
@@ -15,5 +17,6 @@ exports.setRouter = function (app) {
 
     //action
     app.get('/map/getArticle',articleCtrl.getAllArticle);
-    app.post('/addTravels/addAttractions',addTravelsCtrl.addAttractions);
+    app.post('/addTravel',addTravelsCtrl.addTravels);
+   // app.post('/addTravels/addScenics',addTravelsCtrl.addScenics);
 };

@@ -76,8 +76,8 @@ function addMark(point) {
     marker = new BMap.Marker(point, {icon: myIcon});
     map.clearOverlays();
     map.addOverlay(marker);
-    $('#addAttractionsLocationX').val(point.lng);
-    $('#addAttractionsLocationY').val(point.lat);
+    $('#addScenicsLocationX').val(point.lng);
+    $('#addScenicsLocationY').val(point.lat);
 }
 //根据坐标加载mark,并且居中点
 function CoordinatesAddMarkAndSetCenter(lng, lat) {
@@ -105,3 +105,10 @@ $(document).ready(function () {
     });
 
 });
+
+
+//加载第二张地图
+var map2 = new BMap.Map("allmap2");            // 创建Map实例
+var point2 = new BMap.Point('上海');
+map2.centerAndZoom(point2,4);
+map2.enableScrollWheelZoom();                  //启用滚轮放大缩小

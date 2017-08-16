@@ -1,2 +1,0 @@
-require('./articleModel');
-require('./attractionModel');

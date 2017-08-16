@@ -1,31 +1,29 @@
-
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var router=require('./web_router')
-require('./models/init')
+var mongodb = require("mongodb");
+var router = require('./web_router');
+var config = require('./config/env');
 var app = express();
 
+var session = require('express-session');
+
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', config.server.port || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-//app.use(express.favicon());
-//app.use(express.logger('dev'));
-//app.use(express.bodyParser());
-//app.use(express.methodOverride());
-//app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
-router.setRouter(app);
 
 
 //uedit
 var ueditor = require("./");
 var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
+
+
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+router.setRouter(app);
 // view engine setup
 app.use("/ueditor/ue", ueditor(path.join(__dirname, 'public'), function (req, res, next) {
     //客户端上传文件设置
@@ -57,17 +55,17 @@ app.use("/ueditor/ue", ueditor(path.join(__dirname, 'public'), function (req, re
 }));
 
 
-
-// development only
-if ('development' == app.get('env')) {
-   // app.use(express.errorHandler());
-}
-
-app.use('/', function (req, res) {
-    res.render('ueditor');
-});
 http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
+
+setTimeout(function () {
+    http.get('http://localhost:3000', function (res) {
+        console.log('request ok')
+    });
+    http.get('http://localhost:3000', function (res) {
+        console.log('request ok')
+    });
+}, 2000);
 
 module.exports = app;
