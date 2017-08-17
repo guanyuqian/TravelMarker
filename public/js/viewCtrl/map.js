@@ -52,7 +52,7 @@ map.addControl(geolocationControl);
 
 //获取当前位置？
 
-var centerPoint
+var centerPoint;
 function iniCenter() {
 
     var geolocation = new BMap.Geolocation();
@@ -107,8 +107,3 @@ $(document).ready(function () {
 });
 
 
-//加载第二张地图
-var map2 = new BMap.Map("allmap2");            // 创建Map实例
-var point2 = new BMap.Point('上海');
-map2.centerAndZoom(point2,4);
-map2.enableScrollWheelZoom();                  //启用滚轮放大缩小

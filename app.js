@@ -61,10 +61,10 @@ http.createServer(app).listen(app.get('port'), function () {
 
 setTimeout(function () {
     http.get('http://localhost:3000', function (res) {
-        console.log('request ok')
+
     });
     http.get('http://localhost:3000', function (res) {
-        console.log('request ok')
+
     });
 }, 2000);
 

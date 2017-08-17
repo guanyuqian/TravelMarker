@@ -13,18 +13,22 @@ exports.addTravels = function (req, res) {
     var resMsg = {
         message: '', detail: '', dataObj: ''
     };
+    var db = null;
     try {
         genericPool.dbpool.acquire(function (err, client) {
+            db = client;
             client.collection('Travels').save(travel);
             resMsg.message = '添加成功';
+            res.json(resMsg);
         });
     } catch (e) {
         resMsg.message = '添加失败';
+        res.json(resMsg);
     }
     finally {
-        genericPool.dbpool.release(client);
+        genericPool.dbpool.release(db);
+
     }
-    res.json(resMsg);
 };
 
 
