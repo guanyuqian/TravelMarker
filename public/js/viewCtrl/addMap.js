@@ -156,7 +156,7 @@ $(document).ready(function () {
         success: function (data) {
             console.log(data);
             $.each(data, function () {
-                console.log(data);
+
                 //markLocation(this);
             });
         },

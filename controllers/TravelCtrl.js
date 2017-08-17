@@ -8,7 +8,7 @@ exports.getAllTravel = function(req, res){
     try {
         genericPool.dbpool.acquire(function (err, client) {
             db = client;
-            resMsg.dataObj=client.collection('Travels').find({}, function(err, result) {
+            resMsg.dataObj=client.collection('Travels').find().toArray(function(err, result) {
                 if (err) throw err;
                 resMsg.dataObj=result;
                 resMsg.message = '查找成功';
