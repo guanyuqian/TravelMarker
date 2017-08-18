@@ -115,11 +115,13 @@ function getCurrentDate() {
 $('#btn_submit1').click(addTravels);
 $('#btn_submit2').click(addTravels);
 function addTravels() {
+    console.log(UE.imageList);
     var postData = {
         publishDate: getCurrentDate(),
         title: $('#TravelTitle').val(),
         content: ue.getContent(),
-        ScenicList: Scenics
+        ScenicList: Scenics,
+        imageList:UE.imageList
     };
     $.ajax({
         url: '/addTravel',// 跳转到 action

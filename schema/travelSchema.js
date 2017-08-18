@@ -9,7 +9,10 @@ var travelSchema = new Schema({
     publishDate: Date,
     title: String,
     content: String,
-    ScenicList: [{
+    imageList: [
+      String
+    ],
+    scenicList: [{
         name: String,
         startDate: Date,
         pointX: Number,
