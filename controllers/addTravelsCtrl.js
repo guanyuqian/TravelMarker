@@ -27,7 +27,6 @@ exports.addTravels = function (req, res) {
     }
     finally {
         genericPool.dbpool.release(db);
-
     }
 };
 
