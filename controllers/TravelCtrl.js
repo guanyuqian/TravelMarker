@@ -8,13 +8,12 @@ exports.getAllTravel = function(req, res){
     try {
         genericPool.dbpool.acquire(function (err, client) {
             db = client;
-            resMsg.dataObj=client.collection('Travels').find().toArray(function(err, result) {
+            resMsg.dataObj=client.collection('Travels').find({ $query: {}, $orderby: { beginDate : -1 } }).toArray(function(err, result) {
                 if (err) throw err;
                 resMsg.dataObj=result;
                 resMsg.message = '查找成功';
                 res.json(resMsg);
                 genericPool.dbpool.release(client);
-
             });
         });
     } catch (e) {

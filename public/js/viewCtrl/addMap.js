@@ -1,6 +1,10 @@
 /**
  * Created by the_s on 2017/8/5.
  */
+var app = angular.module('mapShow', []);
+var angularTravelList = [];
+app.controller('mapShowCtrl', function ($scope) {
+
     // 百度地图API功能
 var map = new BMap.Map("allmap");
 map.centerAndZoom("西安", 5);
@@ -134,15 +138,16 @@ function addMarkAndSetCenterZoom(point) {
 }
 
 $(document).ready(function () {
+
     $('#timeLine').height(document.body.clientHeight);
     /*var geolocation = new BMap.Geolocation();
-    geolocation.getCurrentPosition(function (r) {
-        if (this.getStatus() == BMAP_STATUS_SUCCESS) {
-            addMarkAndSetCenterZoom(r.point);
-        }
-        else {
-        }
-    }, {enableHighAccuracy: true});*/
+     geolocation.getCurrentPosition(function (r) {
+     if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+     addMarkAndSetCenterZoom(r.point);
+     }
+     else {
+     }
+     }, {enableHighAccuracy: true});*/
 
     $("#searchBtn").click(function () {
         console.log('searchLocation()');
@@ -154,10 +159,29 @@ $(document).ready(function () {
         cache: false,
         dataType: 'json',
         success: function (data) {
-            console.log(data);
-            $.each(data, function () {
+            console.log(data.dataObj);
+            angular.forEach(data.dataObj, function (travel) {
+                //将travels按照年月分组存储
+                var nowDate = new Date(travel.beginDate);
+                var monthDate = MonthEn[nowDate.getMonth()];
+                var yearDate = (nowDate.getYear() + 1900);
+                var lastTravel = this[this.length - 1];
+                if (this.length != 0&&lastTravel.beginDate == nowDate) {
+                    lastTravel.travelList.push(travel);
+                }
+                else{
+                    this.push({
+                        beginDate: monthDate + yearDate,
+                        travelList: [travel],
+                        monthDate: monthDate,
+                        yearDate: yearDate
+                    });
+                }
 
-                //markLocation(this);
+            }, angularTravelList);
+            $scope.$apply(function() {
+                $scope.travelList = angularTravelList;
+
             });
         },
         error: function () {
@@ -165,5 +189,8 @@ $(document).ready(function () {
             alert("异常！");
         }
     });
+    //将时间转换为大标题显示的时间 如 2014-11-7 ==》NOVEMBER 2014
+    const MonthEn = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+    });
 });

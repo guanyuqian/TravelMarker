@@ -7,6 +7,8 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 var travelSchema = new Schema({
     publishDate: Date,
+    beginDate: Date,
+    finishDate: Date,
     title: String,
     content: String,
     imageList: [

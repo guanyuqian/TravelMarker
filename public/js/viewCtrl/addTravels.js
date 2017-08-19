@@ -116,12 +116,21 @@ $('#btn_submit1').click(addTravels);
 $('#btn_submit2').click(addTravels);
 function addTravels() {
     console.log(UE.imageList);
+    var beginDate=null;
+    var finishDate=null;
+    //取得这次旅行的最早时间和最晚时间
+    angular.forEach(Scenics, function(value) {
+        if(beginDate==null||beginDate>value.startDate)beginDate=value.startDate;
+        if(finishDate==null||finishDate<value.startDate)finishDate=value.startDate;
+    });
     var postData = {
         publishDate: getCurrentDate(),
         title: $('#TravelTitle').val(),
         content: ue.getContent(),
-        ScenicList: Scenics,
-        imageList:UE.imageList
+        scenicList: Scenics,
+        imageList:UE.imageList,
+        beginDate:beginDate,
+        finishDate:finishDate
     };
     $.ajax({
         url: '/addTravel',// 跳转到 action

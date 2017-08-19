@@ -10,6 +10,7 @@ exports.renderToView = function (req, res) {
 
 exports.addTravels = function (req, res) {
     var travel = new TravelSchema.Travel(req.body);
+
     var resMsg = {
         message: '', detail: '', dataObj: ''
     };
