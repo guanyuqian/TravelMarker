@@ -55,8 +55,8 @@
         <div class="" id="allmap">
         </div>
     </div>
-    <div id="ss-container" class="ss-container" >
-        <div ng-repeat="t in travelList">
+    <div id="ss-container" class="ss-container">
+        <div class='travelCell' ng-repeat="t in travelList">
             <div class="ss-row">
                 <div class="ss-left">
                     <h2 id="{{t.monthDate}}">{{t.monthDate}}</h2>
@@ -64,6 +64,33 @@
                 <div class="ss-right">
                     <h2>{{t.yearDate}}</h2>
                 </div>
+            </div>
+            <div class="ss-row {{tl.imageSmallSize}}" ng-repeat="tl in t.travelList" repeat-finish="renderFinish()">
+                <div ng-switch on="tl.positionLeft">
+                    <div ng-switch-when="true">
+                        <div class="ss-left">
+                            <h3>
+                                <span>July 29, 2014</span>
+                                <a href="tl.imageList[0]">{{tl.title}}</a>
+                            </h3>
+                        </div>
+                        <div class="ss-right">
+                            <a href={{t.yearDate}} class="ss-circle" style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
+                        </div>
+                    </div>
+                    <div ng-switch-default>
+                        <div class="ss-left">
+                            <a href={{t.yearDate}} class="ss-circle" style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
+                        </div>
+                        <div class="ss-right">
+                            <h3>
+                                <span>July 29, 2014</span>
+                                <a href="tl.imageList[0]">{{tl.title}}</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -78,6 +105,8 @@
 <script src="js/angular146/angular.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jQuery1.11.3/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="plugin/timeline/js/scroolAnimation.js"></script>
+
 <script type="text/javascript" src="js/viewCtrl/addMap.js"></script>
 <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
 
@@ -89,5 +118,4 @@
 <![endif]-->
 <script type="text/javascript" src="plugin/timeline/js/modernizr.custom.11333.js"></script>
 <script type="text/javascript" src="plugin/timeline/js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="plugin/timeline/js/scroolAnimation.js"></script>
 

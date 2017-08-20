@@ -4,7 +4,7 @@ $('#addScenics').click(function () {
     if (editNum == -1) {//create
         var EditData = {
             name: $("#addScenicsName").val(),
-            startDate: $("#addScenicsDate").val(),
+           startDate: $("#addScenicsDate").val(),
             pointX: $("#addScenicsLocationX").val(),
             pointY: $("#addScenicsLocationY").val()
         };
@@ -25,7 +25,7 @@ $('#addScenics').click(function () {
 $("#ctUpload").mouseup(function () {
     $("#ScenicDialog").show();
     $("#addScenicsName").val("");
-    $("#addScenicsDate").val("");
+    //$("#addScenicsDate").val("");
     $("#addScenicsLocationX").val("");
     $("#addScenicsLocationY").val("");
     $("#searchInput").val("");
@@ -140,6 +140,8 @@ function addTravels() {
         data: postData,
         success: function (data) {
             alert(data.message);
+            if(data.message=='添加成功')
+                location.reload();
         },
         error: function () {
             alert(data.message);
