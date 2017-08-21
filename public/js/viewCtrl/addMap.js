@@ -2,11 +2,13 @@
  * Created by the_s on 2017/8/5.
  */
 var app = angular.module('mapShow', []);
-var angularTravelList = [];
+var angularTravelList = [];//安月份分组
+var TravelList=[];//不分组
+// 百度地图API功能
+var map = new BMap.Map("allmap");
 app.controller('mapShowCtrl', function ($scope) {
 
-    // 百度地图API功能
-    var map = new BMap.Map("allmap");
+
     map.centerAndZoom("西安", 5);
     map.setMapStyle({
         styleJson: [
@@ -130,11 +132,19 @@ app.controller('mapShowCtrl', function ($scope) {
 
 //加载mark
     function markLocation(travels) {
-        travelMarks = [];
+        var travelMarks=[];
         angular.forEach(travels.scenicList, function (t, index) {
-            //将travels按照年月分组存储
+            //将travels按照年月分组存储\
+
             var point = new BMap.Point(t.pointX, t.pointY);
             var marker = new BMap.Marker(point);
+            var label = new BMap.Label(index, {offset: new BMap.Size(4, 0)});
+
+            label.setStyle({
+                background: 'none', border: 'none', color: 'white'
+            });
+            marker.setLabel(label);
+            t.marker=marker;
             travelMarks.push(point);
             map.addOverlay(marker);
             if (index > 0) {
@@ -142,15 +152,15 @@ app.controller('mapShowCtrl', function ($scope) {
             }
         });
         //旅途点之间的连线
-        if (travels.scenicList.length > 1) {
-            var polyline = new BMap.Polyline(travelMarks
-                , {strokeColor: "SteelBlue", strokeStyle: 'dashed', strokeWeight: 3, strokeOpacity: 0.9});
-            detailScenicMark.push(polyline);
-            map.addOverlay(polyline);          //增加折线
-            var Arrow = addArrow(polyline, 0.5, Math.PI / 7);
-            detailScenicMark.push(Arrow);
-            map.addOverlay(Arrow);          //增加折线
-        }
+         if (travels.scenicList.length > 1) {
+         var polyline = new BMap.Polyline(travelMarks
+         , {strokeColor: "SteelBlue", strokeStyle: 'dashed', strokeWeight: 3, strokeOpacity: 0.9});
+         detailScenicMark.push(polyline);
+         map.addOverlay(polyline);          //增加折线
+         var Arrow = addArrow(polyline, 0.5, Math.PI / 7);
+         detailScenicMark.push(Arrow);
+         map.addOverlay(Arrow);          //增加折线
+         }
     }
 
     //----------------
@@ -161,8 +171,8 @@ app.controller('mapShowCtrl', function ($scope) {
         var point1 = linePoint[0];
         var point2 = linePoint[1];
         console.log(getAngle(point1.lng, point1.lat, point2.lng, point2.lat));
-        var angle = getAngle( point2.lat, point2.lng,point1.lat,point1.lng);
-        var vectorBOArrow = new BMap.Marker(new BMap.Point((point1.lng+point2.lng)/2,(point1.lat+point2.lat)/2), {
+        var angle = getAngle(point2.lat, point2.lng, point1.lat, point1.lng);
+        var vectorBOArrow = new BMap.Marker(new BMap.Point((point1.lng + point2.lng) / 2, (point1.lat + point2.lat) / 2), {
             // 初始化方向向下的开放式箭头
             icon: new BMap.Symbol(BMap_Symbol_SHAPE_BACKWARD_OPEN_ARROW, {
                 scale: 1,
@@ -174,18 +184,19 @@ app.controller('mapShowCtrl', function ($scope) {
         });
         return vectorBOArrow;
     }
+
     /*==== 由A、B两点的经纬度计算AB夹角、距离 Start====*/
-   /* function getAngle(mLong,mLat,dLong,dLat ) {
-        //var dLong         = 114.104223;//已知点A经度香港
-        //var dLat        = 22.439718;//已知点A纬度   -144
-        var kRadius = 6378137;//地球半径
-        var dx = (dLong*Math.PI/180  - mLong * Math.PI/180)*(kRadius*Math.cos(mLat*Math.PI/180));
-        var dy = (dLat*Math.PI/180 - mLat * Math.PI/180)*kRadius
-        jiajiao=0;
-        jiajiao = Math.atan2(dx, dy)*180.0/Math.PI;
-        var juli = Math.sqrt(dx*dx + dy*dy)
-        return [jiajiao,juli];
-    }*/
+    /* function getAngle(mLong,mLat,dLong,dLat ) {
+     //var dLong         = 114.104223;//已知点A经度香港
+     //var dLat        = 22.439718;//已知点A纬度   -144
+     var kRadius = 6378137;//地球半径
+     var dx = (dLong*Math.PI/180  - mLong * Math.PI/180)*(kRadius*Math.cos(mLat*Math.PI/180));
+     var dy = (dLat*Math.PI/180 - mLat * Math.PI/180)*kRadius
+     jiajiao=0;
+     jiajiao = Math.atan2(dx, dy)*180.0/Math.PI;
+     var juli = Math.sqrt(dx*dx + dy*dy)
+     return [jiajiao,juli];
+     }*/
     /*==== 由A、B两点的经纬度计算AB夹角、距离 End====*/
     function getAngle(px1, py1, px2, py2) {
         //两点的x、y值
@@ -235,23 +246,25 @@ app.controller('mapShowCtrl', function ($scope) {
             cache: false,
             dataType: 'json',
             success: function (data) {
-                console.log(data);
+                console.log(data.dataObj);
+                TravelList=data.dataObj;
                 angular.forEach(data.dataObj, function (travel) {
                     //将travels按照年月分组存储
                     markLocation(travel);
                     var nowDate = new Date(travel.beginDate);
                     var monthDate = MonthEn[nowDate.getMonth()];
-                    var yearDate = (nowDate.getYear() + 1900);
+                    var datDate = nowDate.getDate();
+                    var yearDate = nowDate.getFullYear();
                     var lastTravel = this[this.length - 1];
                     travel.positionLeft = Math.random() < 0.5 ? true : false;//图像随机左右
                     travel.imageSmallSize = Math.random() < 0.5 ? 'ss-small' : 'ss-medium';//图像随机大小
                     if (travel.imageList.length == 0) travel.imageList.push("/img/travelDefault.jpg");
-                    if (this.length != 0 && lastTravel.beginDate == nowDate) {
+                    if (this.length != 0 && lastTravel.monthDate + lastTravel.yearDate == monthDate + yearDate) {
                         lastTravel.travelList.push(travel);
                     }
                     else {
                         this.push({
-                            beginDate: monthDate + yearDate,
+                            beginDate: MonthEn[nowDate.getMonth()] + ' ' + datDate + ',' + yearDate,
                             travelList: [travel],
                             monthDate: monthDate,
                             yearDate: yearDate
@@ -262,6 +275,7 @@ app.controller('mapShowCtrl', function ($scope) {
 
                 $scope.$apply(function () {
                     $scope.travelList = angularTravelList;
+                    console.log(angularTravelList);
                 });
             },
             error: function () {
@@ -533,4 +547,20 @@ function iniScroll() {
     })();
 
     $sidescroll.init();
+}
+
+//点击聚焦map对应mark操作
+function focusTravel(travelId) {
+
+    angular.forEach(TravelList, function (t) {
+
+
+        if(t.$$hashKey==travelId){
+           map.panTo(t.scenicList[0].marker.point);
+            map.setZoom(8);
+           console.log(t.scenicList[0].marker)
+           return;
+       }
+    });
+
 }

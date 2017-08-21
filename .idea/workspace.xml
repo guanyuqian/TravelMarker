@@ -2,180 +2,14 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" line="36" />
-    <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js" line="272" />
+    <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js" line="286" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d560b1eb-869d-43a2-8a58-396749210514" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/lib/parse-path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/lib/set-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/append-field/test/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/depd/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/media-typer/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/media-typer/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/media-typer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/media-typer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/media-typer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/SOURCES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/lib/custom.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/lib/mime.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/lib/node.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/mime-types/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/type-is/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/GOVERNANCE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/duplex-browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/internal/streams/destroy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/lib/internal/streams/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/readable-browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/writable-browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/readable-stream/writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/string_decoder/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/string_decoder/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/string_decoder/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/string_decoder/lib/string_decoder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/node_modules/string_decoder/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-stream/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_ccitt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_kermit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_modbus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_xmodem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc24.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc32.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc8_1wire.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/create_buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/define_crc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/.coveralls.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/src/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/src/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/src/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/ms/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/ms/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/test/generic-pool-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/test/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/generic-pool/test/validate-async-stress-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/lib/counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/lib/file-appender.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/lib/make-error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/lib/remove-uploaded-files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/storage/disk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/storage/memory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-assign/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-assign/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-assign/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/example/tarray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/test/server/undef_globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typedarray/test/tarray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/LICENCE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/immutable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/mutable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/xtend/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" afterPath="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugin/timeline/css/style.css" afterPath="$PROJECT_DIR$/public/plugin/timeline/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/addMap.ejs" afterPath="$PROJECT_DIR$/views/addMap.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="addMap.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addMap.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="71" column="84" lean-forward="false" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -214,22 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addMap.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
+            <state relative-caret-position="321">
+              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
               <folding>
-                <element signature="e#268#2081#0" expanded="false" />
-                <element signature="e#6684#6780#0" expanded="false" />
-                <element signature="e#9239#9401#0" expanded="false" />
+                <element signature="e#292#2105#0" expanded="false" />
+                <element signature="e#6931#7027#0" expanded="false" />
+                <element signature="e#9710#9872#0" expanded="false" />
                 <element signature="n#!!block;n#iniScroll#0" expanded="false" />
-                <element signature="e#10332#11151#0" expanded="false" />
-                <element signature="e#11442#11763#0" expanded="false" />
-                <element signature="e#11862#12000#0" expanded="false" />
-                <element signature="e#12071#12182#0" expanded="false" />
-                <element signature="e#12259#14478#0" expanded="false" />
-                <element signature="e#14808#18852#0" expanded="false" />
+                <element signature="e#10803#11622#0" expanded="false" />
+                <element signature="e#11913#12234#0" expanded="false" />
+                <element signature="e#12333#12471#0" expanded="false" />
+                <element signature="e#12542#12653#0" expanded="false" />
+                <element signature="e#12730#14949#0" expanded="false" />
+                <element signature="e#15279#19323#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -248,8 +82,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="88" column="14" lean-forward="false" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="263">
+              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -275,8 +109,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/plugin/timeline/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="347" column="38" lean-forward="false" selection-start-line="347" selection-start-column="38" selection-end-line="347" selection-end-column="38" />
+            <state relative-caret-position="394">
+              <caret line="359" column="23" lean-forward="false" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
               <folding>
                 <marker date="1503047562800" expanded="true" signature="26728:26732" ph="{...}" />
               </folding>
@@ -327,18 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nowDate</find>
-      <find>travelList</find>
-      <find>val()</find>
-      <find>val(</find>
-      <find>angular</find>
-      <find>js</find>
-      <find>ss-container</find>
-      <find>ss-links</find>
-      <find>small</find>
-      <find>ssmall</find>
-      <find>sssmall</find>
-      <find>ss-small</find>
       <find>ss-mee</find>
       <find>ss-m</find>
       <find>ss-me</find>
@@ -357,6 +179,18 @@
       <find>console.log</find>
       <find>8</find>
       <find>5</find>
+      <find>arrow</find>
+      <find>markLocation</find>
+      <find>begindate</find>
+      <find>getd</find>
+      <find>travelList</find>
+      <find>$(</find>
+      <find>padding</find>
+      <find>tl</find>
+      <find>forEach</find>
+      <find>TravelList</find>
+      <find>map</find>
+      <find>travelMarks</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -439,10 +273,10 @@
         <option value="$PROJECT_DIR$/schema/travelSchema.js" />
         <option value="$PROJECT_DIR$/controllers/TravelCtrl.js" />
         <option value="$PROJECT_DIR$/public/plugin/timeline/js/scroolAnimation.js" />
-        <option value="$PROJECT_DIR$/views/addMap.ejs" />
         <option value="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" />
         <option value="$PROJECT_DIR$/public/plugin/timeline/css/style.css" />
         <option value="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" />
+        <option value="$PROJECT_DIR$/views/addMap.ejs" />
       </list>
     </option>
   </component>
@@ -469,8 +303,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="width" value="1698" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -643,6 +477,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -712,6 +572,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMarker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1225,7 +1113,7 @@
       <workItem from="1502948241643" duration="14737000" />
       <workItem from="1503018323628" duration="623000" />
       <workItem from="1503040388497" duration="6445000" />
-      <workItem from="1503114827731" duration="21558000" />
+      <workItem from="1503114827731" duration="33311000" />
     </task>
     <task id="LOCAL-00001" summary="fix: CUD Attractions is fine&#10;&#10;next story: uedit's image upload">
       <created>1502597367609</created>
@@ -1262,11 +1150,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503211610342</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add: add line and arrow in the travel mark,zoom &lt; 5 detail mark will be hide">
+      <created>1503216947660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503216947660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165801000" />
+    <option name="totallyTimeSpent" value="177554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1278,7 +1173,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1698" height="1068" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1292,10 +1187,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2743837" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31364125" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3133998" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33208156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38115764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1365,7 +1260,8 @@
     <MESSAGE value="fun: &#10;1.design the home page ui&#10;2.write the get all map ,still has bug&#10;next story: complete the home page function" />
     <MESSAGE value="add: timeline show basic in angular js&#10;1.change the schema to add beginDate and finishDate to Travels&#10;2.add time line date show list in front by angular js" />
     <MESSAGE value="add: random image size and position in the time line" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: random image size and position in the time line" />
+    <MESSAGE value="add: add line and arrow in the travel mark,zoom &lt; 5 detail mark will be hide" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: add line and arrow in the travel mark,zoom &lt; 5 detail mark will be hide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1614,16 +1510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="347" column="38" lean-forward="false" selection-start-line="347" selection-start-column="38" selection-end-line="347" selection-end-column="38" />
-          <folding>
-            <marker date="1503047562800" expanded="true" signature="26728:26732" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/travelDefault.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1663,22 +1549,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="88" column="14" lean-forward="false" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        <state relative-caret-position="394">
+          <caret line="359" column="23" lean-forward="false" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1503047562800" expanded="true" signature="26728:26732" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1691,21 +1567,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
+        <state relative-caret-position="321">
+          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
           <folding>
-            <element signature="e#268#2081#0" expanded="false" />
-            <element signature="e#6684#6780#0" expanded="false" />
-            <element signature="e#9239#9401#0" expanded="false" />
+            <element signature="e#292#2105#0" expanded="false" />
+            <element signature="e#6931#7027#0" expanded="false" />
+            <element signature="e#9710#9872#0" expanded="false" />
             <element signature="n#!!block;n#iniScroll#0" expanded="false" />
-            <element signature="e#10332#11151#0" expanded="false" />
-            <element signature="e#11442#11763#0" expanded="false" />
-            <element signature="e#11862#12000#0" expanded="false" />
-            <element signature="e#12071#12182#0" expanded="false" />
-            <element signature="e#12259#14478#0" expanded="false" />
-            <element signature="e#14808#18852#0" expanded="false" />
+            <element signature="e#10803#11622#0" expanded="false" />
+            <element signature="e#11913#12234#0" expanded="false" />
+            <element signature="e#12333#12471#0" expanded="false" />
+            <element signature="e#12542#12653#0" expanded="false" />
+            <element signature="e#12730#14949#0" expanded="false" />
+            <element signature="e#15279#19323#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="71" column="84" lean-forward="false" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
