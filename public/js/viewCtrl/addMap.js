@@ -3,7 +3,7 @@
  */
 var app = angular.module('mapShow', []);
 var angularTravelList = [];//安月份分组
-var TravelList=[];//不分组
+var TravelList = [];//不分组
 // 百度地图API功能
 var map = new BMap.Map("allmap");
 app.controller('mapShowCtrl', function ($scope) {
@@ -132,7 +132,7 @@ app.controller('mapShowCtrl', function ($scope) {
 
 //加载mark
     function markLocation(travels) {
-        var travelMarks=[];
+        var travelMarks = [];
         angular.forEach(travels.scenicList, function (t, index) {
             //将travels按照年月分组存储\
 
@@ -144,7 +144,7 @@ app.controller('mapShowCtrl', function ($scope) {
                 background: 'none', border: 'none', color: 'white'
             });
             marker.setLabel(label);
-            t.marker=marker;
+            t.marker = marker;
             travelMarks.push(point);
             map.addOverlay(marker);
             if (index > 0) {
@@ -152,27 +152,34 @@ app.controller('mapShowCtrl', function ($scope) {
             }
         });
         //旅途点之间的连线
-         if (travels.scenicList.length > 1) {
-         var polyline = new BMap.Polyline(travelMarks
-         , {strokeColor: "SteelBlue", strokeStyle: 'dashed', strokeWeight: 3, strokeOpacity: 0.9});
-         detailScenicMark.push(polyline);
-         map.addOverlay(polyline);          //增加折线
-         var Arrow = addArrow(polyline, 0.5, Math.PI / 7);
-         detailScenicMark.push(Arrow);
-         map.addOverlay(Arrow);          //增加折线
-         }
+        if (travels.scenicList.length > 1) {
+            var polyline = new BMap.Polyline(travelMarks
+                , {strokeColor: "SteelBlue", strokeStyle: 'dashed', strokeWeight: 3, strokeOpacity: 0.9});
+            detailScenicMark.push(polyline);
+            map.addOverlay(polyline);          //增加折线
+            addArrow(polyline);
+        }
     }
 
     //----------------
     //这里只实现了两个点
-    function addArrow(polyline, length, angleValue) { //绘制箭头的函数
+    function addArrow(polyline) { //绘制箭头的函数
         var linePoint = polyline.getPath(); //线的坐标串
         var arrowCount = linePoint.length;
-        var point1 = linePoint[0];
-        var point2 = linePoint[1];
+        for (var i = 0; i < linePoint.length-1; i++) {
+            var point1 = linePoint[i];
+            var point2 = linePoint[i+1];
+            var vectorBOArrow=getarrow(point1,point2);
+            detailScenicMark.push(vectorBOArrow);
+            map.addOverlay(vectorBOArrow);          //增加折线
+        }
+
+    }
+
+    function getarrow(point1, point2) {
         console.log(getAngle(point1.lng, point1.lat, point2.lng, point2.lat));
         var angle = getAngle(point2.lat, point2.lng, point1.lat, point1.lng);
-        var vectorBOArrow = new BMap.Marker(new BMap.Point((point1.lng + point2.lng) / 2, (point1.lat + point2.lat) / 2), {
+        return new BMap.Marker(new BMap.Point((point1.lng + point2.lng) / 2, (point1.lat + point2.lat) / 2), {
             // 初始化方向向下的开放式箭头
             icon: new BMap.Symbol(BMap_Symbol_SHAPE_BACKWARD_OPEN_ARROW, {
                 scale: 1,
@@ -182,7 +189,7 @@ app.controller('mapShowCtrl', function ($scope) {
                 fillOpacity: 0.8
             })
         });
-        return vectorBOArrow;
+
     }
 
     /*==== 由A、B两点的经纬度计算AB夹角、距离 Start====*/
@@ -247,7 +254,7 @@ app.controller('mapShowCtrl', function ($scope) {
             dataType: 'json',
             success: function (data) {
                 console.log(data.dataObj);
-                TravelList=data.dataObj;
+                TravelList = data.dataObj;
                 angular.forEach(data.dataObj, function (travel) {
                     //将travels按照年月分组存储
                     markLocation(travel);
@@ -555,12 +562,12 @@ function focusTravel(travelId) {
     angular.forEach(TravelList, function (t) {
 
 
-        if(t.$$hashKey==travelId){
-           map.panTo(t.scenicList[0].marker.point);
+        if (t.$$hashKey == travelId) {
+            map.panTo(t.scenicList[0].marker.point);
             map.setZoom(8);
-           console.log(t.scenicList[0].marker)
-           return;
-       }
+            console.log(t.scenicList[0].marker)
+            return;
+        }
     });
 
 }

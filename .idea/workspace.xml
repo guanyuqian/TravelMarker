@@ -2,14 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" line="36" />
-    <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js" line="286" />
+    <bookmark url="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js" line="293" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d560b1eb-869d-43a2-8a58-396749210514" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" afterPath="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugin/timeline/css/style.css" afterPath="$PROJECT_DIR$/public/plugin/timeline/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/addMap.ejs" afterPath="$PROJECT_DIR$/views/addMap.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,13 +36,9 @@
       <file leaf-file-name="addMap.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="71" column="84" lean-forward="false" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,19 +46,19 @@
       <file leaf-file-name="addMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+            <state relative-caret-position="322">
+              <caret line="183" column="21" lean-forward="false" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
               <folding>
-                <element signature="e#292#2105#0" expanded="false" />
-                <element signature="e#6931#7027#0" expanded="false" />
-                <element signature="e#9710#9872#0" expanded="false" />
+                <element signature="e#294#2107#0" expanded="false" />
+                <element signature="e#7062#7158#0" expanded="false" />
+                <element signature="e#9843#10005#0" expanded="false" />
                 <element signature="n#!!block;n#iniScroll#0" expanded="false" />
-                <element signature="e#10803#11622#0" expanded="false" />
-                <element signature="e#11913#12234#0" expanded="false" />
-                <element signature="e#12333#12471#0" expanded="false" />
-                <element signature="e#12542#12653#0" expanded="false" />
-                <element signature="e#12730#14949#0" expanded="false" />
-                <element signature="e#15279#19323#0" expanded="false" />
+                <element signature="e#10936#11755#0" expanded="false" />
+                <element signature="e#12046#12367#0" expanded="false" />
+                <element signature="e#12466#12604#0" expanded="false" />
+                <element signature="e#12675#12786#0" expanded="false" />
+                <element signature="e#12863#15082#0" expanded="false" />
+                <element signature="e#15412#19456#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,7 +67,7 @@
       <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1313">
+            <state relative-caret-position="1771">
               <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
               <folding />
             </state>
@@ -82,8 +77,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+            <state relative-caret-position="168">
+              <caret line="184" column="23" lean-forward="true" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -121,7 +116,7 @@
       <file leaf-file-name="addTravelsCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="437">
               <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
@@ -132,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/controllers/TravelCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
-              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -141,8 +136,8 @@
       <file leaf-file-name="addTravels.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="1403">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <marker date="1503211169690" expanded="true" signature="1141:1161" ph="..." />
               </folding>
@@ -161,14 +156,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ss-mee</find>
       <find>ss-m</find>
       <find>ss-me</find>
       <find>ss-med</find>
       <find>ss-medi</find>
       <find>ss-mediu</find>
       <find>beginDate</find>
-      <find>添加成功</find>
       <find>alert</find>
       <find>mark</find>
       <find>ss-medium</find>
@@ -185,12 +178,14 @@
       <find>getd</find>
       <find>travelList</find>
       <find>$(</find>
-      <find>padding</find>
-      <find>tl</find>
       <find>forEach</find>
       <find>TravelList</find>
       <find>map</find>
+      <find>tl</find>
       <find>travelMarks</find>
+      <find>添加成功</find>
+      <find>padding</find>
+      <find>15px</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -274,9 +269,9 @@
         <option value="$PROJECT_DIR$/controllers/TravelCtrl.js" />
         <option value="$PROJECT_DIR$/public/plugin/timeline/js/scroolAnimation.js" />
         <option value="$PROJECT_DIR$/public/js/viewCtrl/addTravels.js" />
+        <option value="$PROJECT_DIR$/views/addMap.ejs" />
         <option value="$PROJECT_DIR$/public/plugin/timeline/css/style.css" />
         <option value="$PROJECT_DIR$/public/js/viewCtrl/addMap.js" />
-        <option value="$PROJECT_DIR$/views/addMap.ejs" />
       </list>
     </option>
   </component>
@@ -343,6 +338,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -605,9 +601,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1113,7 +1108,8 @@
       <workItem from="1502948241643" duration="14737000" />
       <workItem from="1503018323628" duration="623000" />
       <workItem from="1503040388497" duration="6445000" />
-      <workItem from="1503114827731" duration="33311000" />
+      <workItem from="1503114827731" duration="38468000" />
+      <workItem from="1503391664598" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="fix: CUD Attractions is fine&#10;&#10;next story: uedit's image upload">
       <created>1502597367609</created>
@@ -1157,11 +1153,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503216947660</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: click timeline node map will zoom and set center to the first travels mark">
+      <created>1503297202837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503297202838</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177554000" />
+    <option name="totallyTimeSpent" value="182969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1183,16 +1186,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39267015" sideWeight="0.51044935" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32690248" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2743837" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32668883" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27242523" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3133998" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30232558" sideWeight="0.48850575" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38115764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33189654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1205,6 +1207,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1252,6 +1255,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1261,7 +1290,8 @@
     <MESSAGE value="add: timeline show basic in angular js&#10;1.change the schema to add beginDate and finishDate to Travels&#10;2.add time line date show list in front by angular js" />
     <MESSAGE value="add: random image size and position in the time line" />
     <MESSAGE value="add: add line and arrow in the travel mark,zoom &lt; 5 detail mark will be hide" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: add line and arrow in the travel mark,zoom &lt; 5 detail mark will be hide" />
+    <MESSAGE value="add: click timeline node map will zoom and set center to the first travels mark" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: click timeline node map will zoom and set center to the first travels mark" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1490,7 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,7 +1534,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/TravelCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1503211169690" expanded="true" signature="1141:1161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="183" column="21" lean-forward="false" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+          <folding>
+            <element signature="e#294#2107#0" expanded="false" />
+            <element signature="e#7062#7158#0" expanded="false" />
+            <element signature="e#9843#10005#0" expanded="false" />
+            <element signature="n#!!block;n#iniScroll#0" expanded="false" />
+            <element signature="e#10936#11755#0" expanded="false" />
+            <element signature="e#12046#12367#0" expanded="false" />
+            <element signature="e#12466#12604#0" expanded="false" />
+            <element signature="e#12675#12786#0" expanded="false" />
+            <element signature="e#12863#15082#0" expanded="false" />
+            <element signature="e#15412#19456#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="184" column="23" lean-forward="true" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="359" column="23" lean-forward="false" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
+          <folding>
+            <marker date="1503047562800" expanded="true" signature="26728:26732" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,86 +1621,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/TravelCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/addTravelsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addTravels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <marker date="1503211169690" expanded="true" signature="1141:1161" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="359" column="23" lean-forward="false" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
-          <folding>
-            <marker date="1503047562800" expanded="true" signature="26728:26732" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1313">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/plugin/timeline/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/viewCtrl/addMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
-          <folding>
-            <element signature="e#292#2105#0" expanded="false" />
-            <element signature="e#6931#7027#0" expanded="false" />
-            <element signature="e#9710#9872#0" expanded="false" />
-            <element signature="n#!!block;n#iniScroll#0" expanded="false" />
-            <element signature="e#10803#11622#0" expanded="false" />
-            <element signature="e#11913#12234#0" expanded="false" />
-            <element signature="e#12333#12471#0" expanded="false" />
-            <element signature="e#12542#12653#0" expanded="false" />
-            <element signature="e#12730#14949#0" expanded="false" />
-            <element signature="e#15279#19323#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/addMap.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="71" column="84" lean-forward="false" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
