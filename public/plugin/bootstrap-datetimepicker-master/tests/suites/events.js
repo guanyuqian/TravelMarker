@@ -41,7 +41,7 @@ test('Selecting a year from decade view triggers pickYear', function(){
     datesEqual(this.dp.viewDate, UTCDate(2011, 2, 31));
     datesEqual(this.dp.date, UTCDate(2011, 2, 31));
 
-    // Change years to test internal state changes
+    // Change years to test.js internal state changes
     target = this.picker.find('.datetimepicker-years tbody span:contains(2010)');
     target.click();
     equal(this.dp.viewMode, 3);

@@ -10,6 +10,7 @@ var articleCtrl = require('./controllers/articleCtrl');
 
 exports.setRouter = function (app) {
     //render
+    app.get('/', mapCtrl.viewMap);
     app.get('/map', mapCtrl.viewMap);
     app.get('/book', indexCtrl.index);
     //app.get('/viewMap', addMapCtrl.viewMap);

@@ -28,7 +28,7 @@ test('Activation by component', function(){
     ok(this.picker.is(':visible'));
 });
 
-test('simple keyboard nav test', function(){
+test('simple keyboard nav test.js', function(){
     var target;
 
     // Keyboard nav only works with non-readonly inputs
@@ -118,7 +118,7 @@ test('Navigating to/from decade view', function(){
     datesEqual(this.dp.viewDate, UTCDate(2012, 2, 31));
     datesEqual(this.dp.date, UTCDate(2012, 2, 31));
 
-    // Change years to test internal state changes
+    // Change years to test.js internal state changes
     target = this.picker.find('.datetimepicker-years tbody span:contains(2011)');
     target.click();
     equal(this.dp.viewMode, 3);
@@ -172,7 +172,7 @@ test('Highlight in month', function() {
 
     picker.remove();
 
-    // test bootstrap 3 as well
+    // test.js bootstrap 3 as well
     this.addon.click();
     equal(this.picker.find('.datetimepicker-months .month.active').text(), 'Feb');
 

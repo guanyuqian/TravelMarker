@@ -3,7 +3,7 @@
  */
 module.exports = {
     "server": {
-        "port": "3000",
+        "port": "80",
         "logFile": "logs/console.log",
         "errorFile": "logs/console.error"
     },
