@@ -143,7 +143,7 @@ ARROW_SVG =
         function hideOrShowDetailScenic(cmd) {
 
             angular.forEach(lushuList, function (t) {
-                if(t._marker!=null) {
+                if (t._marker != null) {
                     if (cmd == 'hide')
                         t._marker.hide();
                     else
@@ -151,7 +151,7 @@ ARROW_SVG =
                 }
             });
             angular.forEach(detailScenicMark, function (t) {
-                if(t!=null) {
+                if (t != null) {
                     if (cmd == 'hide')
                         t.hide();
                     else
@@ -168,23 +168,28 @@ ARROW_SVG =
 
                 var point = new BMap.Point(t.pointX, t.pointY);
                 var marker = new BMap.Marker(point);
+                var label1 = new BMap.Label(t.name, {offset: new BMap.Size(20, -25)});
 
+                t.infLabel = label1;
+                marker.setLabel(label1);
 
+                detailScenicMark.push(label1);
                 t.marker = marker;
                 travelMarks.push(point);
                 map.addOverlay(marker);
                 if (index > 0) {
-                    var point1= travelMarks[index - 1];
-                    var point2=travelMarks[index];
-                    var pointEnd= new BMap.Point((point1.lng+point2.lng)/2,(point1.lat+point2.lat)/2);
-                    var lushu = new BMapLib.LuShu(map,[ point1,pointEnd], {
+                    var point1 = travelMarks[index - 1];
+                    var point2 = travelMarks[index];
+                    var pointEnd = new BMap.Point((point1.lng + point2.lng) / 2, (point1.lat + point2.lat) / 2);
+                    var lushu = new BMapLib.LuShu(map, [point1, pointEnd], {
                         defaultContent: "",
                         autoView: true, //是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
                         icon: FOOT_SVG,
                         enableRotation: true, //是否设置marker随着道路的走向进行旋转
-                        speed: 5000,
+                        speed: 20000,
                         landmarkPois: []
                     });
+                    //路数标记添加
                     t.lushu = lushu;
                     detailScenicMark.push(marker);
                     lushuList.push(lushu);
@@ -196,57 +201,22 @@ ARROW_SVG =
                     });
                     marker.setLabel(label);
                     travels.scenicList.countLabel = label;
-                }
 
+                }
+                marker.addEventListener("click", function () {
+                    clickFocusTravel(travels);
+                });
             });
             //旅途点之间的连线
             if (travels.scenicList.length > 1) {
-
                 var polyline = new BMap.Polyline(travelMarks
                     , {strokeColor: "SteelBlue", strokeStyle: 'dashed', strokeWeight: 3, strokeOpacity: 0.9});
                 travels.polyline = polyline;
                 detailScenicMark.push(polyline);
                 map.addOverlay(polyline);          //增加折线
-                // addArrow(polyline);
-
-
-                //lushuList.push(lushu);
             }
         }
 
-        //----------------
-        //这里只实现了两个点
-        function addArrow(polyline) { //绘制箭头的函数
-            var linePoint = polyline.getPath(); //线的坐标串
-            var arrowCount = linePoint.length;
-            for (var i = 0; i < arrowCount - 1; i++) {
-                var point1 = linePoint[i];
-                var point2 = linePoint[i + 1];
-                var vectorBOArrow = getarrow(point1, point2);
-                //detailScenicMark.push(vectorBOArrow);
-                lushuList.push(vectorBOArrow);
-                map.addOverlay(vectorBOArrow);          //增加折线
-            }
-
-        }
-
-        function getarrow(point1, point2) {
-            console.log(getAngle(point1.lng, point1.lat, point2.lng, point2.lat));
-            var angle = getAngle(point2.lat, point2.lng, point1.lat, point1.lng);
-            //var lushu = new BMapLib.LuShu(map, [point1, point2], {});
-            var lushu = new BMapLib.LuShu(map, [point1, point2], {
-                defaultContent: "",
-                autoView: true, //是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
-                icon: FOOT_SVG,
-                enableRotation: true, //是否设置marker随着道路的走向进行旋转
-                speed: 1,
-                landmarkPois: []
-            });
-            return lushu;
-
-            // rotation: angle,
-
-        }
 
         /*==== 由A、B两点的经纬度计算AB夹角、距离 Start====*/
         /* function getAngle(mLong,mLat,dLong,dLat ) {
@@ -302,7 +272,6 @@ ARROW_SVG =
                 cache: false,
                 dataType: 'json',
                 success: function (data) {
-                    console.log(data.dataObj);
                     TravelList = data.dataObj;
                     angular.forEach(data.dataObj, function (travel) {
                         //将travels按照年月分组存储
@@ -331,7 +300,6 @@ ARROW_SVG =
 
                     $scope.$apply(function () {
                         $scope.travelList = angularTravelList;
-                        console.log(angularTravelList);
                     });
                 },
                 error: function () {
@@ -609,7 +577,6 @@ function iniScroll() {
 function focusTravel(travelId) {
     angular.forEach(TravelList, function (t) {
         if (t.$$hashKey == travelId) {
-
             if (map.getZoom() < 8)
                 map.setZoom(8);
             map.panTo(t.scenicList[0].marker.point);
@@ -621,18 +588,50 @@ function focusTravel(travelId) {
             });
             t.polyline.setStrokeColor('darkOrange');
             t.scenicList.countLabel.hide();
-
-            return;
         }
         else {
             t.polyline.setStrokeColor('SteelBlue');
+
             angular.forEach(t.scenicList, function (mk) {
-                t.scenicList.countLabel.show();
 
                 mk.marker.setAnimation(null); //跳动的动画
                 mk.marker.setIcon(BAIDU_ICON_RED);
             });
+            t.scenicList.countLabel.show();
         }
+        t.scenicList[0].marker.setLabel(t.scenicList[0].infLabel);
+    });
+
+}
+
+
+//点击聚焦map对应mark操作
+function clickFocusTravel(travel) {
+    angular.forEach(TravelList, function (t) {
+        if (t == travel) {
+            if (map.getZoom() < 8)
+                map.setZoom(8);
+            map.panTo(t.scenicList[0].marker.point);
+            angular.forEach(t.scenicList, function (mk, index) {
+                mk.marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+                mk.marker.setIcon(BAIDU_ICON_BLUE);
+                if (index > 0)
+                    mk.lushu.start();
+            });
+            t.polyline.setStrokeColor('darkOrange');
+            t.scenicList.countLabel.hide();
+        }
+        else {
+            t.polyline.setStrokeColor('SteelBlue');
+
+            angular.forEach(t.scenicList, function (mk) {
+
+                mk.marker.setAnimation(null); //跳动的动画
+                mk.marker.setIcon(BAIDU_ICON_RED);
+            });
+            t.scenicList.countLabel.show();
+        }
+        t.scenicList[0].marker.setLabel(t.scenicList[0].infLabel);
     });
 
 }

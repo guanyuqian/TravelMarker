@@ -5,8 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" type="text/css" href="js/bootstrap/dist/css/bootstrap.min.css"/>
-    <script src="js/jQuery1.11.3/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="plugin/timeline/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="plugin/timeline/css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="plugin/timeline/css/styleIE.css"/>
+    <![endif]-->
+
     <style type="text/css">
+        #allmap label{max-width:none;}
         ::-webkit-scrollbar {
             display: none;
         }
@@ -65,27 +72,29 @@
                     <h2>{{t.yearDate}}</h2>
                 </div>
             </div>
-            <div class="ss-row {{tl.imageSmallSize}}" ng-repeat="tl in t.travelList" repeat-finish="renderFinish()" >
-                <div ng-switch on="tl.positionLeft" >
+            <div class="ss-row {{tl.imageSmallSize}}" ng-repeat="tl in t.travelList" repeat-finish="renderFinish()">
+                <div ng-switch on="tl.positionLeft">
                     <div ng-switch-when="true">
                         <div class="ss-left">
                             <h3 onclick="focusTravel(this.id)" id="{{tl.$$hashKey}}">
                                 <span>{{t.beginDate}}</span>
-                                <a >{{tl.title}}</a>
+                                <a>{{tl.title}}</a>
                             </h3>
                         </div>
                         <div class="ss-right">
-                            <a class="ss-circle" style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
+                            <a class="ss-circle"
+                               style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
                         </div>
                     </div>
                     <div ng-switch-default>
                         <div class="ss-left">
-                            <a class="ss-circle" style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
+                            <a class="ss-circle"
+                               style="background-image: url({{tl.imageList[0]}})">{{tl.imageList[0]}}</a>
                         </div>
                         <div class="ss-right">
                             <h3 onclick="focusTravel(this.id)" id="{{tl.$$hashKey}}">
                                 <span>{{t.beginDate}}</span>
-                                <a >{{tl.title}}</a>
+                                <a>{{tl.title}}</a>
                             </h3>
                         </div>
                     </div>
@@ -97,25 +106,17 @@
 </div>
 </body>
 </html>
-<script type="text/javascript"
-        src="http://api.map.baidu.com/api?v=2.0&ak=A4749739227af1618f7b0d1b588c0e85"></script>
-<script type="text/javascript"
-        src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
-<script type="text/javascript" src="js/lushu/test.js"></script>
-<script src="js/angular146/angular.min.js" type="text/javascript" charset="utf-8"></script>
+
+
 <script src="js/jQuery1.11.3/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/angular146/angular.min.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="js/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" src="plugin/timeline/js/scroolAnimation.js"></script>
-
-<script type="text/javascript" src="js/viewCtrl/addMap.js"></script>
-<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
-
-<link rel="stylesheet" type="text/css" href="plugin/timeline/css/demo.css"/>
-<link rel="stylesheet" type="text/css" href="plugin/timeline/css/style.css"/>
-<link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'/>
-<!--[if lt IE 9]>
-<link rel="stylesheet" type="text/css" href="plugin/timeline/css/styleIE.css"/>
-<![endif]-->
 <script type="text/javascript" src="plugin/timeline/js/modernizr.custom.11333.js"></script>
 <script type="text/javascript" src="plugin/timeline/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="plugin/timeline/js/scroolAnimation.js"></script>
+<script type="text/javascript" src="js/lushu/baidumapPre.js"></script>
+<script type="text/javascript" src="js/lushu/test.js"></script>
+<script type="text/javascript" src="js/viewCtrl/addMap.js"></script>
+
 
